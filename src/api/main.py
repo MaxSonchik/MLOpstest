@@ -7,10 +7,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 
-os.environ['MLFLOW_TRACKING_URI'] = 'http://localhost:5000'
-os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'http://127.0.0.1:9000'
-os.environ['AWS_ACCESS_KEY_ID'] = 'minioadmin'
-os.environ['AWS_SECRET_ACCESS_KEY'] = 'minioadmin'
+# os.environ['MLFLOW_TRACKING_URI'] = 'http://localhost:5000'
+# os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'http://127.0.0.1:9000'
+# os.environ['AWS_ACCESS_KEY_ID'] = 'minioadmin'
+# os.environ['AWS_SECRET_ACCESS_KEY'] = 'minioadmin'
 
 # !! ID !! 
 RUN_ID = "a1b66d369f734a7f9923326cfbb8d6cf" 
